@@ -43,7 +43,7 @@ public class arreglos {
         //reporte de asistencia
         int asistencias = 0;
         int faltas = 0;
-        for (int i=asistencia.length; i>=0; i--){
+        for (int i=asistencia.length; i>0; i--){
             if (asistencia[i-1]){
                 asistencias++;
             }else{
